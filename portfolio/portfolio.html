@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Md Nasir Alam - MIS Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f4f8;
+      color: #333;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: white;
+      text-align: center;
+      padding: 80px 0;
+      animation: fadeIn 1.5s;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    section {
+      padding: 60px 10%;
+    }
+
+    h1, h2 {
+      color: #2575fc;
+    }
+
+    .project, .skills-card {
+      background-color: white;
+      margin-bottom: 20px;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.05);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .project:hover, .skills-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    }
+
+    .skills-card {
+      display: inline-block;
+      margin: 10px;
+      padding: 20px 40px;
+      background-color: #2575fc;
+      color: white;
+      border-radius: 30px;
+    }
+
+    .contact {
+      background-color: #2575fc;
+      color: white;
+      padding: 60px 0;
+      text-align: center;
+    }
+
+    a {
+      color: #ffcc00;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Md Nasir Alam</h1>
+    <p>MIS Executive Intern | Data Management | Sales Analysis</p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Data-driven MIS professional with expertise in transforming raw data into actionable insights. Skilled in data management, reporting, and sales analysis using Excel and various data management tools.</p>
+  </section>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="project">
+      <h3>Sales Dashboard</h3>
+      <p>Created an interactive sales performance dashboard using Excel with Pivot Tables and VLOOKUP, increasing sales efficiency by 20%.</p>
+    </div>
+
+    <div class="project">
+      <h3>Recruitment Data Management</h3>
+      <p>Developed a recruitment data management system using Excel automation, reducing manual effort by 30%.</p>
+    </div>
+
+    <div class="project">
+      <h3>Lead Generation Analysis</h3>
+      <p>Analyzed lead generation data using SQL and Excel to optimize lead conversion, resulting in a 15% increase in efficiency.</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-card">Microsoft Excel (VLOOKUP, HLOOKUP, Pivot Tables, Macros)</div>
+    <div class="skills-card">Data Analysis and Reporting</div>
+    <div class="skills-card">CRM Management</div>
+    <div class="skills-card">SQL and Data Extraction</div>
+    <div class="skills-card">Business Analytics</div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: Nasiralam7838@gmail.com</p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/tariqalam" target="_blank">linkedin.com/in/tariqalam</a></p>
+  </section>
+
+  <footer class="contact">
+    <p>&copy; 2025 Md Nasir Alam - Portfolio</p>
+  </footer>
+</body>
+</html>
